@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="erchashu"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/classhomework/erchashu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="erchashu">
+				<Option output="F:/classhomework/erchashu/cmake-build-debug/erchashu.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/classhomework/erchashu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 erchashu"/>
+					<CompileFile command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="erchashu/fast">
+				<Option output="F:/classhomework/erchashu/cmake-build-debug/erchashu.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/classhomework/erchashu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="f:\vs\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 erchashu/fast"/>
+					<CompileFile command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/classhomework/erchashu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/classhomework/erchashu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/vs/bin/mingw32-make.exe -f &quot;F:/classhomework/erchashu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/classhomework/erchashu/bitree.cpp">
+			<Option target="erchashu"/>
+		</Unit>
+		<Unit filename="F:/classhomework/erchashu/bitree.h">
+			<Option target="erchashu"/>
+		</Unit>
+		<Unit filename="F:/classhomework/erchashu/main.cpp">
+			<Option target="erchashu"/>
+		</Unit>
+		<Unit filename="F:/classhomework/erchashu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

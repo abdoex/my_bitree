@@ -1,0 +1,3 @@
+"F:\clion\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\erchashu.dir/objects.a
+F:\vs\bin\ar.exe cr CMakeFiles\erchashu.dir/objects.a @CMakeFiles\erchashu.dir\objects1.rsp
+F:\vs\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\erchashu.dir/objects.a -Wl,--no-whole-archive  -o erchashu.exe -Wl,--out-implib,liberchashu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\erchashu.dir\linklibs.rsp

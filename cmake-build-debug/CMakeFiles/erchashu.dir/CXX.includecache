@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/classhomework/erchashu/bitree.cpp
+bitree.h
+F:/classhomework/erchashu/bitree.h
+
+F:/classhomework/erchashu/bitree.h
+iostream
+-
+
+F:/classhomework/erchashu/main.cpp
+iostream
+-
+bitree.h
+F:/classhomework/erchashu/bitree.h
+
